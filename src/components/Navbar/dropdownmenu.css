@@ -49,3 +49,14 @@
 .dropdownmenu-lg:hover {
   display: grid;
 }
+
+@media screen and (max-width: 426px) {
+  .dropdownmenu {
+    width: 150px;
+    right: -5px;
+  }
+  .dropdownmenu-lg {
+    min-height: 300px;
+    right: -5px;
+  }
+}

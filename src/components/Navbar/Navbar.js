@@ -93,8 +93,8 @@ export default function Navbar() {
             </a>
           </div>
         </li>
-        <li className="link">{t("links.about")}</li>
-        <li className="link">{t("links.contact")}</li>
+        <li className="link tmp">{t("links.about")}</li>
+        <li className="link tmp">{t("links.contact")}</li>
       </ul>
 
       <ul className="langs flex-center-center">
