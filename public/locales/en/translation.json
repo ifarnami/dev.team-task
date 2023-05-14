@@ -1,0 +1,15 @@
+{
+  "links": {
+    "brand": "Dev. Team",
+    "fields": "Fields",
+    "technologies": "Technologies",
+    "about": "About",
+    "contact": "Contact Us"
+  },
+  "content": {
+    "header1": "We Design and Code",
+    "header2": "For YOU",
+    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "btn": "Email Us"
+  }
+}

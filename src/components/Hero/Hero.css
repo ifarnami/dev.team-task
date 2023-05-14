@@ -87,8 +87,9 @@ button:active {
 }
 
 .header {
-  font-size: 4rem;
+  font-size: 3.7rem;
   font-weight: 900;
+  height: 11rem;
   line-height: 5rem;
   text-align: center;
   background-color: #5758e0;

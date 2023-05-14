@@ -1,22 +1,26 @@
 import "./Hero.css";
+import { useTranslation } from "react-i18next";
+
+
 
 function Hero() {
+  let { t, i18n } = useTranslation();
+
   return (
     <main className="flex-center-center">
       <section className="flex-center-center">
         <div className="header mb-5">
-          <h1>We Design and Code</h1>
-          <h1>For YOU</h1>
+          <h1>{t("content.header1")}</h1>
+          <h1>{t("content.header2")}</h1>
         </div>
         <div className="content mb-5">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            {t("content.paragraph")}
           </p>
         </div>
         <button>
-          <div class="svg-wrapper-1">
-            <div class="svg-wrapper">
+          <div className="svg-wrapper-1">
+            <div className="svg-wrapper">
               <svg
                 height="24"
                 width="24"
@@ -31,7 +35,9 @@ function Hero() {
               </svg>
             </div>
           </div>
-          <span><a href="mailto:farnam.faryar@GMAIL.COM">Email Us</a></span>
+          <span>
+            <a href="mailto:farnam.faryar@GMAIL.COM">{t("content.btn")}</a>
+          </span>
         </button>
       </section>
     </main>
